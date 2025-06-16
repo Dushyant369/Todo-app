@@ -11,7 +11,7 @@ function App() {
 
   const fetchTodos = async () => {
       try {
-      const res = await fetch("http://localhost:3000/todo");
+      const res = await fetch("https://todo-app-rdd2.onrender.com/todo");
       const json = await res.json();
       setTodos(json.todos);
     } catch (err) {

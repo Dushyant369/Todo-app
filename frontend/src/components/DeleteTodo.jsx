@@ -1,6 +1,6 @@
 export async function deleteTodoById(_id) {
   try {
-    const res = await fetch("http://localhost:3000/todo", {
+    const res = await fetch("https://todo-app-rdd2.onrender.com/todo", {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

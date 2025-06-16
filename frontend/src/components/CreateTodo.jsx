@@ -61,7 +61,7 @@ export function CreateTodo({ darkMode, refreshTodos }) {
       <button
         onClick={async () => {
     try {
-      const response = await fetch("http://localhost:3000/todo", {
+      const response = await fetch("https://todo-app-rdd2.onrender.com/todo", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

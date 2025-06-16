@@ -68,7 +68,7 @@ export function Todos({ todos, darkMode, refreshTodos }) {
                 fontSize: "14px",
               }}
               onClick={() => {
-                fetch("http://localhost:3000/completed", {
+                fetch("https://todo-app-rdd2.onrender.com/completed", {
                   method: "PUT",
                   headers: {
                     "Content-Type": "application/json",
